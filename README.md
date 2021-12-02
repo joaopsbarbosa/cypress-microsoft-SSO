@@ -14,7 +14,7 @@ Quick example:
 ```javascript
 describe('Open Microsoft using SSO', () => {
     it('SSO on Microsoft', () => {
-        cy.Microsoft_SSO('https://login.microsoftonline.com/', 'emailtest@test.test', 'P4$sw0rd.1')
+        cy.microsoftSSO('https://login.microsoftonline.com/', 'emailtest@test.test', 'P4$sw0rd.1')
     })
 })
 ```
