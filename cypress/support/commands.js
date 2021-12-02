@@ -4,7 +4,7 @@
 */
 
 // Cypress Command to do the Login on Azure DevOps Inside Cypress
-Cypress.Commands.add('Microsoft_SSO', (urlMicrosoft, email, pass) => {
+Cypress.Commands.add('microsoftSSO', (urlMicrosoft, email, pass) => {
     const options = {
         username: email,
         password: pass,
